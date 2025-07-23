@@ -12,7 +12,7 @@ from .tools.bulk_upload_drive import bulk_upload_drive
 root_agent = Agent(
     name="RagAgent",
     # Using Gemini 2.5 Flash for best performance with RAG operations
-    model="gemini-2.5-flash-preview-04-17",
+    model="gemini-2.5-flash",
     description="Vertex AI RAG Agent",
     tools=[
         rag_query,
